@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:padding="16dp"
+        android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/productImage" android:layout_width="match_parent" android:layout_height="200dp" android:scaleType="centerCrop" android:background="@android:color/darker_gray"/>
+        <Button android:id="@+id/captureBtn" android:text="Capture Image" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/productName" android:hint="Product Name" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/model" android:hint="Model" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/purchasePrice" android:hint="Purchase Price" android:inputType="numberDecimal" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/sellPrice" android:hint="Selling Price" android:inputType="numberDecimal" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/customerName" android:hint="Customer Name" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/customerPhone" android:hint="Customer Phone" android:inputType="phone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <Button android:id="@+id/saveBtn" android:text="Save Record" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <Button android:id="@+id/galleryBtn" android:text="View Gallery" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</ScrollView>
